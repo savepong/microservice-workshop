@@ -6,7 +6,7 @@ const SwaggerExpress = require('swagger-express-mw')
 const express = require('express')
 
 const app = express()
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 113001
 const swaggerUiPath = path.dirname(require.resolve('swagger-ui-dist'))
 const swaggerConfig = {
   appRoot: __dirname // required config

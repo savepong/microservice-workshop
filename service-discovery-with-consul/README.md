@@ -11,7 +11,7 @@ Open url=http://localhost:8500 in browser
 $npm install
 $node service1.js  9001
 $node service2.js  9002
-$node service2.js  9003
+$node service3.js  9003
 ```
 
 Open url=http://localhost:9001/ in browser

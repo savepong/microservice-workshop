@@ -6,7 +6,7 @@ const request = require('request-promise-native')
 const xml = require('xml')
 
 const app = express()
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 3041
 
 // Dummmy service discovery
 const service1Url = 'http://localhost:3002'
