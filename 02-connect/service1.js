@@ -12,7 +12,12 @@ app.get('*', (req, res) => {
     uri: 'http://localhost:3003',
     json: true
   })
-    .then((body) => res.json(body))
+    .then((body) => {
+      res.json({
+        'I am':'Service 1', 
+        'Connected to': body.name
+      })
+    })
     .catch((err) => next(err))
 })
 
