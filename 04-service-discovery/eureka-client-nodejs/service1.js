@@ -54,7 +54,7 @@ client.start(error => {
       uri: nodeUrl,
       json: true
     })
-      .then((body) => res.json(body))
+      .then((body) => res.json({'from service1 call ': body}))
       .catch((err) => next(err))
   });
 

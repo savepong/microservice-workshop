@@ -51,7 +51,7 @@ Step 5 :: Create new service in API Gateway
 $curl -i -X POST \
   --url http://localhost:8001/services/ \
   --data 'name=service-2' \
-  --data 'url=http://172.16.6.2:3002'
+  --data 'url=http://192.168.1.56:3002'
 ```
 
 Step 6 :: Create routes for service

@@ -13,7 +13,7 @@ Working with service discovery
 ### Start Eureka server
 ```
 $cd eureka-server-java
-$mvnw spring-boot:run
+$./mvnw spring-boot:run
 ```
 Open url=http://localhost:8761/ in browser
 
